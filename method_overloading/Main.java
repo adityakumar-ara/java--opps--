@@ -1,3 +1,4 @@
+// Same class mein same method ka naam, lekin parameters different.
 class CALCULATOR{
     int add(int a, int b){
         return  a+b;
