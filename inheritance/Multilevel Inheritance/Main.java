@@ -31,6 +31,7 @@ class Son1 extends Father {
         System.out.println("Father Shop: " + shop);
         System.out.println("Father Name: " + fatherName);
         System.out.println("Father Balance: " + balance);
+        System.out.println("_____________________________________");
     }
 }
 
@@ -47,6 +48,7 @@ class Son2 extends Son1 {
     }
 
     void display2() {
+        // display1(); //Nesting method
         System.out.println("Son2 Name: " + son2Name);
         System.out.println("Son2 Age: " + son2Age);
         System.out.println("Son2 Balance: " + son2Balance);
