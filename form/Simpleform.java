@@ -1,5 +1,4 @@
-import java.awt.Color;
-import java.awt.Frame;
+import java.awt.*;
 
 class Simpleform{
     public static void main(String[] args) {
